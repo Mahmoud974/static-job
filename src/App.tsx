@@ -13,8 +13,8 @@ const App = () => {
 
   return (
     <section className="mx-auto " >
-      
-      <div className="bg-teal-700 lg:bg-[url('src/assets/images/bg-header-desktop.svg')] bg-[url('src/assets/images/bg-header-mobile.svg')] bg-cover bg-center h-48"></div>
+      <img src="/img/logo.png" alt=""  />
+      <div className="bg-teal-700 lg:bg-[url('/img/bg-header-desktop.svg')] bg-[url('/img/bg-header-mobile.svg')] bg-cover bg-center h-48"></div>
         
      <Filterbar setSearchRole={setSearchRole} setSearchLevel={setSearchLevel} searchRole={searchRole} searchLevel={searchLevel} searchLanguage={searchLanguage} setSearchLanguage={setSearchLanguage}/>
     {/* List to work */}

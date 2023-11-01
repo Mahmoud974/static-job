@@ -29,7 +29,7 @@ const Card:React.FC<Props> = ({task, searchLanguage, setSearchLevel, setSearchRo
           shadow-lg text-xl lg:text-lg  ${task.featured && ' border-l-8 border-teal-600  '}` }>
           
             <div className="flex lg:space-x-6 lg:-ml-0 flex-col lg:flex-row -ml-16 ">
-              <img src={`src/assets/${task.logo}`} alt={`logo ${task.company}`} className="w-[4rem] ml-14 md:ml-0 lg:w-28 lg:h-28 lg:-mt-0 -mt-10 md:-mt-24  " />
+              <img src={`${task.logo}`} alt={`logo ${task.company}`} className="w-[4rem] ml-14 md:ml-0 lg:w-28 lg:h-28 lg:-mt-0 -mt-10 md:-mt-24  " />
               <div className="space-y-1 pt-6 lg:mt-3 lg:pt-0 flex flex-col items-start ml-14 md:ml-0 ">
                <div className="flex space-x-1  items-start justify-start  ">
                  <p className="font-bold text-teal-600 md:text-xl  ">
