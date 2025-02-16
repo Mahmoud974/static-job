@@ -2,9 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-    font-family: 'League Spartan', sans-serif;
-    font-size: 15px;
-    height: 100vh;
-    
+body {
+  font-family: "League Spartan", sans-serif;
+  font-size: 15px;
+  height: auto;
 }
